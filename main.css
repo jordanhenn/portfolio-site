@@ -27,6 +27,9 @@ h2 {
 }
 
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 200px;
     padding: 6% 0;
     background-color: #bbb;
@@ -39,4 +42,16 @@ section {
   footer {
     min-height: 100px;
     background-color: #ddd;
+  }
+
+  .imagebox {
+      background-color: black;
+      color: white;
+      height: 200px;
+      width: 200px;
+  }
+
+  .app-description {
+      text-align: left;
+      margin-left: 20px;
   }
