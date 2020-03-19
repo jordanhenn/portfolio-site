@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 @font-face {
     font-family: RobotoBoldItalic;
     src: url("./Roboto/Roboto-BoldItalic.ttf");
@@ -23,6 +21,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
+    color: rgb(241, 0, 189);
+    background-image: url("./geocitiesbackground.png");
 }
 
 main {
@@ -32,29 +32,29 @@ main {
 
 header {
     position: fixed;
-    font-family: Roboto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     left: 0;
     top: 0;
     width: 100%;
-    color: white;
+    color: rgb(241, 0, 189);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: black;
+    background-image: url("./flames.gif")
 }
 
 h2 {
     font-size: 26px;
     font-weight: normal;
-    font-family: Roboto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     padding: 5px;
-    border: 5px solid black;
     margin: 5px;
 }
 
 h3 {
     font-size: 24px;
-    font-family: RobotoBoldItalic;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
     line-height: 30px;
 }
 
@@ -63,21 +63,17 @@ section {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    border: 5px solid black;
     margin: 5px;
     font-size: 24px;
   }
 
-  .important {
-      font-family: RobotoBoldItalic;
-  }
 
   p {
-      font-family: Roboto;
+      font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
 .imagebox {
-      background-color: black;
+      background-color: rgb(241, 0, 189);
       color: white;
       height: 200px;
       width: 200px;
@@ -94,16 +90,23 @@ img {
 }
 
 footer {
-    font-family: Roboto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     padding: 5px;
     margin: 5px;
-    border: 5px solid black;
+}
+
+footer a {
+    color: white;
 }
 
 address {
     font-style: normal;
     font-size: 20px;
   }
+
+.app-description a {
+    color: white;
+}
 
 @media only screen and (max-width: 500px) {
     .hidden {
@@ -125,12 +128,11 @@ address {
         font-size: 32px;
       }
     h1 {
-        font-size: 28px;
-        padding: 5px;
-        border: 5px solid white;    
+        font-size: 24px;
+        padding: 5px;  
     }
     .topnav a {
-        color: white;
+        color: rgb(241, 0, 189);;
         padding: 5px 10px;
         text-decoration: none;
         display: block;
@@ -139,11 +141,11 @@ address {
         list-style-type: none;
         text-align: left;
         font-size: 24px;
-    }  
+    }   
     .geocities {
-        border: 5px solid black;
+        border: 5px solid rgb(241, 0, 189);
         width: 200px;
-    }  
+    } 
   }
 
 @media only screen and (min-width: 500px) {
@@ -165,16 +167,15 @@ address {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 32px;
+        font-size: 28px;
         padding: 5px;
-        border: 5px solid white; 
         width: 260px;  
         margin-left: auto;
         margin-right: auto;
     }
 
     .topnav a {
-        color: white;
+        color: rgb(241, 0, 189);;
         padding: 5px 10px;
         text-decoration: none;
     }
@@ -186,8 +187,8 @@ address {
         height: 70px;
     }
     .geocities {
-        border: 5px solid black;
-        width: 150px;
+        border: 5px solid rgb(241, 0, 189);
+        width: 150px;;
     }
 }
 
