@@ -31,7 +31,6 @@ main {
 }
 
 header {
-    position: fixed;
     font-family: "Comic Sans MS", cursive, sans-serif;
     left: 0;
     top: 0;
@@ -112,9 +111,6 @@ address {
     .hidden {
         display: none;
     }
-    body {
-        padding-top: 93px;
-    }
     .container {
         display: flex;
         align-items: center;
@@ -151,9 +147,6 @@ address {
 @media only screen and (min-width: 500px) {
     .hide {
         display: none;
-    }
-    body {
-        padding-top: 158px;
     }
     ul {
         display: flex;
