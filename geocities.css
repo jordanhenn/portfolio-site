@@ -148,6 +148,9 @@ address {
     .hide {
         display: none;
     }
+    .hidden {
+        display: block;
+    }
     ul {
         display: flex;
         align-items: center;
