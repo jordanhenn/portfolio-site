@@ -146,10 +146,6 @@ img {
     width: 200px;
     padding: 5px;
 }
-.app-description {
-      text-align: left;
-      margin-left: 20px;
-}
 
 footer {
     font-family: Roboto;
@@ -218,7 +214,7 @@ address {
     }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 760px) {
 .port-item-wrap {
     display: flex;
     flex-direction: row;
@@ -227,6 +223,7 @@ address {
 }
 .app-description {
     width: 70%;
+    text-align: left;
 }
 .tech {
     font-size: 16px;
