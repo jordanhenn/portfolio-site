@@ -11,6 +11,15 @@ $('.js-bio').on("click",function(event){
         <p>Interested in joining a <span class="important">team of programmers.</span></p>
         <p>Fan of 3D modelling/animation, theme parks, and the XFL.</p>
     </div>`);
+    $('.links').toggleClass("hidden");
+});
+
+$('.js-github').on("click",function(event){
+    $('.links').toggleClass("hidden");
+});
+
+$('.js-linkedin').on("click",function(event){
+    $('.links').toggleClass("hidden");
 });
 
 $('.js-port').on("click",function(event){
@@ -28,6 +37,7 @@ $('.js-port').on("click",function(event){
             </div>
         </div>
     </div>`);
+    $('.links').toggleClass("hidden");
 });
 
 $('body').on("click",'.js-geocities', function(event) {
