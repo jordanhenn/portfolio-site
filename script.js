@@ -45,7 +45,7 @@ $('.js-port').on("click",function(event){
         <div class="app-description">
             <h3>Drivia</h3>
             <p class="tech">HTML, CSS, JS, React, Express, Tesseract OCR</p>
-            <p class="app-descript">Full stack Jeopardy-style quiz app where users answer in their own handwriting. Meant for users looking for a challenge. Built to better understand React, Express, and current OCR tech.</p>
+            <p class="app-descript">Full-stack Jeopardy-style quiz app where users answer in their own handwriting. Meant for users looking for a challenge. Built to better understand React, Express, and current OCR tech.</p>
             <div class="live-links-wrap">
                 <p><a target="_blank" href="https://github.com/jordanhenn/drivia-client">GitHub</a> | <a target="_blank" href="https://drivia.vercel.app//">Live</a></p>
             </div>
@@ -58,7 +58,7 @@ $('.js-port').on("click",function(event){
         <div class="app-description">
             <h3>Fast Food Evolved</h3>
             <p class="tech">HTML, CSS, JS, React, Express</p>
-            <p class="app-descript">Full stack app where users can select different items (buns, sauces, fillings) from different fast food establishments and combine them into a new creation. Meant for fast food lovers looking to create the ultimate hybrid. Built to better understand React, Express, and svg image manipulation.</p>
+            <p class="app-descript">Full-stack app where users can select different items (buns, sauces, fillings) from different fast food establishments and combine them into a new creation. Meant for fast food lovers looking to create the ultimate hybrid. Built to better understand React, Express, and svg image manipulation.</p>
             <div class="live-links-wrap">
                 <p><a target="_blank" href="https://github.com/jordanhenn/fastfood-client">GitHub</a> | <a target="_blank" href="https://fastfood-client.jordanhenn.vercel.app/">Live</a></p>
             </div>
