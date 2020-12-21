@@ -26,14 +26,36 @@ $('.js-port').on("click",function(event){
     $('.js-pageinfo').html(`
     <div class="port-item-wrap">
         <div class="imagebox">
-            <img src="./guessthatscat.png" alt="Guess That Scat! An interactive quiz."/>
+            <img src="./cantdecide.png" alt="CantDecide"/>
         </div>
         <div class="app-description">
-            <h3>Guess That Scat!</h3>
+            <h3>CantDecide</h3>
             <p class="tech">HTML, CSS, JS</p>
-            <p class="app-descript">A short, multiple-choice quiz which challenges users to identify the droppings of different animals from images alone. Users answers are determined to be right or wrong and their score updated at each subsequent question. Meant for anyone looking for a fun quiz. Built as practice for jQuery.</p>
+            <p class="app-descript">An app that provides a random movie suggestion and available streaming locations using the TMDb and Utelly APIs. Meant for people who have trouble choosing movies to watch. Built in order to better understand API documentation.</p>
             <div class="live-links-wrap">
-                <p><a target="_blank" href="https://github.com/jordanhenn/quizapp">GitHub</a> | <a target="_blank" href="https://jordanhenn.github.io/quizapp/">Live</a></p>
+                <p><a target="_blank" href="https://github.com/jordanhenn/cantdecide">GitHub</a> | <a target="_blank" href="https://jordanhenn.github.io/cantdecide/">Live</a></p>
+            </div>
+        </div>
+        <div class="imagebox">
+            <img src="./drivia.png" alt="Drivia"/>
+        </div>
+        <div class="app-description">
+            <h3>Drivia</h3>
+            <p class="tech">HTML, CSS, JS, React, Express, Tesseract OCR</p>
+            <p class="app-descript">Full stack Jeopardy-style quiz app where users answer in their own handwriting. Meant for users looking for a challenge. Built to better understand React, Express, and current OCR tech.</p>
+            <div class="live-links-wrap">
+                <p><a target="_blank" href="https://github.com/jordanhenn/drivia-client">GitHub</a> | <a target="_blank" href="https://drivia.vercel.app//">Live</a></p>
+            </div>
+        </div>
+        <div class="imagebox">
+            <img src="./fastfoodevolved.png" alt="Fast Food Evolved"/>
+        </div>
+        <div class="app-description">
+            <h3>Fast Food Evolved</h3>
+            <p class="tech">HTML, CSS, JS, React, Express</p>
+            <p class="app-descript">App where users can select different items (buns, sauces, fillings) from different fast food establishment and combine them into a new creation. Meant for fast food lovers looking to create the ultimate hybrid. Built to better understand React, Express, and svg manipulation.</p>
+            <div class="live-links-wrap">
+                <p><a target="_blank" href="https://github.com/jordanhenn/fastfood-client">GitHub</a> | <a target="_blank" href="https://fastfood-client.jordanhenn.vercel.app/">Live</a></p>
             </div>
         </div>
     </div>`);
