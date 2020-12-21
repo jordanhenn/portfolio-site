@@ -24,6 +24,7 @@ $('.js-linkedin').on("click",function(event){
 
 $('.js-port').on("click",function(event){
     $('.js-pageinfo').html(`
+    <div class="portfolio-items">
     <div class="port-item-wrap">
         <div class="imagebox">
             <img src="./cantdecide.png" alt="CantDecide"/>
@@ -62,6 +63,7 @@ $('.js-port').on("click",function(event){
                 <p><a target="_blank" href="https://github.com/jordanhenn/fastfood-client">GitHub</a> | <a target="_blank" href="https://fastfood-client.jordanhenn.vercel.app/">Live</a></p>
             </div>
         </div>
+    </div>
     </div>`);
     $('.links').toggleClass("hidden");
 });
