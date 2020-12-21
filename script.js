@@ -36,6 +36,8 @@ $('.js-port').on("click",function(event){
                 <p><a target="_blank" href="https://github.com/jordanhenn/cantdecide">GitHub</a> | <a target="_blank" href="https://jordanhenn.github.io/cantdecide/">Live</a></p>
             </div>
         </div>
+    </div>
+    <div class="port-item-wrap">
         <div class="imagebox">
             <img src="./drivia.png" alt="Drivia"/>
         </div>
@@ -47,6 +49,8 @@ $('.js-port').on("click",function(event){
                 <p><a target="_blank" href="https://github.com/jordanhenn/drivia-client">GitHub</a> | <a target="_blank" href="https://drivia.vercel.app//">Live</a></p>
             </div>
         </div>
+    </div>
+    <div class="port-item-wrap">
         <div class="imagebox">
             <img src="./fastfoodevolved.png" alt="Fast Food Evolved"/>
         </div>
