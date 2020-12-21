@@ -58,7 +58,7 @@ $('.js-port').on("click",function(event){
         <div class="app-description">
             <h3>Fast Food Evolved</h3>
             <p class="tech">HTML, CSS, JS, React, Express</p>
-            <p class="app-descript">App where users can select different items (buns, sauces, fillings) from different fast food establishment and combine them into a new creation. Meant for fast food lovers looking to create the ultimate hybrid. Built to better understand React, Express, and svg manipulation.</p>
+            <p class="app-descript">Full stack app where users can select different items (buns, sauces, fillings) from different fast food establishments and combine them into a new creation. Meant for fast food lovers looking to create the ultimate hybrid. Built to better understand React, Express, and svg image manipulation.</p>
             <div class="live-links-wrap">
                 <p><a target="_blank" href="https://github.com/jordanhenn/fastfood-client">GitHub</a> | <a target="_blank" href="https://fastfood-client.jordanhenn.vercel.app/">Live</a></p>
             </div>
