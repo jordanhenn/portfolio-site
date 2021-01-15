@@ -5,7 +5,7 @@ $('.js-icon').on("click",function(event){
 $('.js-bio').on("click",function(event){
     $('.js-pageinfo').html(`
     <div class="bio">
-        <p>Graduated from <span class="important">Thinkful’s Web Developer Track.</span> in December 2020.</p>
+        <p>Graduated from <span class="important">Thinkful’s Web Developer Track</span> in December 2020.</p>
         <p>Loves <span class="important">making users’ lives easier</span> than they could have ever imagined.</p>
         <p><span class="important">Addicted to learning</span>--often caught messing around with new APIs.</p> 
         <p>Interested in joining a <span class="important">team of programmers.</span></p>
