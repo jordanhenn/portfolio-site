@@ -32,7 +32,7 @@ $('.js-port').on("click",function(event){
         <div class="app-description">
             <h3>HG Job Tracker</h3>
             <p class="tech">HTML, CSS, JS, React, Express</p>
-            <p class="app-descript">Full-stack app developed for HOA Management company. Used to track billings and progress on reserve study projects. Also helps automate aspects of the manager/employee/client relationship cycle. Developed after it was discovered the previous system was leading to tens of thousands of dollars of missing billings.</p>
+            <p class="app-descript">Full-stack app developed for HOA Management company. Used to track billings and progress on reserve study projects. Also helps automate aspects of the manager/employee/client relationship cycle. Developed after discovering previous system was responsible for tens of thousands of dollars worth of unbilled work.</p>
             <div class="live-links-wrap">
                 <p><a target="_blank" href="https://github.com/jordanhenn/helsing-client">GitHub</a> | <a target="_blank" href="https://helsing-client.vercel.app/">Live</a></p>
             </div>
